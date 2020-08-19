@@ -81,5 +81,4 @@ app
     }
   })
 
-httpServer.listen(config.get('express.port'))
-logger.info('Express listening on port %s', config.get('express.port'))
+httpServer.listen(3000,'127.0.0.1')
